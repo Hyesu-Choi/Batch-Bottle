@@ -69,71 +69,71 @@ $(document).ready(function(){
           });
     });
 
-    // // intro animation
-    // anime({
-    //     targets: '.left-sidebar',
-    //     duration: 1500,
-    //     scaleY: [0, 1],
-    //     easing: 'linear'
-    //   });
+    // intro animation
+    anime({
+        targets: '.left-sidebar',
+        duration: 1500,
+        scaleY: [0, 1],
+        easing: 'linear'
+      });
 
-    //   anime({
-    //     targets: '.logo img',
-    //     translateY: [50, 0],
-    //     opacity: [0, 1],
-    //     delay: 500,
-    //     easing: 'easeInOutExpo'
-    //   });
-    //   anime({
-    //     targets: '.menu li',
-    //     translateY: [50, 0],
-    //     opacity: [0, 1],
-    //     delay: anime.stagger(150, {start: 700}),
-    //     easing: 'easeInOutExpo'
-    //   });
-    //   anime({
-    //     targets: '.slider .text > *',
-    //     translateY: [250, 0],
-    //     opacity: [0, 1],
-    //     delay: anime.stagger(100, {start: 1700}),
-    //     easing: 'easeInOutSine'
-    //   });
-    //   anime({
-    //     targets: '.slick-dots li',
-    //     translateY: [250, 0],
-    //     opacity: [0, 1],
-    //     delay: anime.stagger(100, {start: 2000}),
-    //     easing: 'easeInOutSine'
-    //   });
-    //   anime({
-    //     targets: '.slider .img img',
-    //     duration: 1500,
-    //     translateX: [250, 0],
-    //     rotate: [45, 0],
-    //     opacity: [0, 1],
-    //     delay: 3400
-    //   });
-    //   anime({
-    //     targets: '.shape',
-    //     duration: 1500,
-    //     scale: [0, 1],
-    //     opacity: [0, 1],
-    //     delay: 4000
-    //   });
-    //   anime({
-    //     targets: '.social a',
-    //     duration: 2500,
-    //     translateY: [-50, 0],
-    //     opacity: [0, 1],
-    //     delay: anime.stagger(150, {start: 5000})
-    //   });
-    //   anime({
-    //     targets: '.toggle span',
-    //     duration: 2500,
-    //     translateX: [-50, 0],
-    //     opacity: [0, 1],
-    //     delay: anime.stagger(150, {start: 5500})
-    //   });
+      anime({
+        targets: '.logo img',
+        translateY: [50, 0],
+        opacity: [0, 1],
+        delay: 500,
+        easing: 'easeInOutExpo'
+      });
+      anime({
+        targets: '.menu li',
+        translateY: [50, 0],
+        opacity: [0, 1],
+        delay: anime.stagger(150, {start: 700}),
+        easing: 'easeInOutExpo'
+      });
+      anime({
+        targets: '.slider .text > *',
+        translateY: [250, 0],
+        opacity: [0, 1],
+        delay: anime.stagger(100, {start: 1700}),
+        easing: 'easeInOutSine'
+      });
+      anime({
+        targets: '.slick-dots li',
+        translateY: [250, 0],
+        opacity: [0, 1],
+        delay: anime.stagger(100, {start: 2000}),
+        easing: 'easeInOutSine'
+      });
+      anime({
+        targets: '.slider .img img',
+        duration: 1500,
+        translateX: [250, 0],
+        rotate: [45, 0],
+        opacity: [0, 1],
+        delay: 3400
+      });
+      anime({
+        targets: '.shape',
+        duration: 1500,
+        scale: [0, 1],
+        opacity: [0, 1],
+        delay: 4000
+      });
+      anime({
+        targets: '.social a',
+        duration: 2500,
+        translateY: [-50, 0],
+        opacity: [0, 1],
+        delay: anime.stagger(150, {start: 5000})
+      });
+      anime({
+        targets: '.toggle span',
+        duration: 2500,
+        translateX: [-50, 0],
+        opacity: [0, 1],
+        delay: anime.stagger(150, {start: 5500})
+      });
 
 
 
