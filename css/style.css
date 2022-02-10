@@ -353,6 +353,7 @@ header .logo img {
   }
   .toggle-menu img {
     height: 40%;
+    width: 100%;
   }
   .toggle_social {
     font-size: 30px;
