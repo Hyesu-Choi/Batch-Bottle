@@ -120,20 +120,20 @@ $(document).ready(function(){
         opacity: [0, 1],
         delay: 4000
       });
-      anime({
-        targets: '.social a',
-        duration: 2500,
-        translateY: [-50, 0],
-        opacity: [0, 1],
-        delay: anime.stagger(150, {start: 5000})
-      });
-      anime({
-        targets: '.toggle span',
-        duration: 2500,
-        translateX: [-50, 0],
-        opacity: [0, 1],
-        delay: anime.stagger(150, {start: 5500})
-      });
+      // anime({
+      //   targets: '.social a',
+      //   duration: 2500,
+      //   translateY: [-50, 0],
+      //   opacity: [0, 1],
+      //   delay: anime.stagger(150, {start: 5000})
+      // });
+      // anime({
+      //   targets: '.toggle span',
+      //   duration: 2500,
+      //   translateX: [-50, 0],
+      //   opacity: [0, 1],
+      //   delay: anime.stagger(150, {start: 5500})
+      // });
 
 
 
